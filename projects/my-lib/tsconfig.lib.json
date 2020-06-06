@@ -9,11 +9,12 @@
     "lib": [
       "dom",
       "es2018"
-    ]
+    ],
+    "emitDecoratorMetadata": true
   },
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
-    "strictMetadataEmit": true,
+    // "strictMetadataEmit": true,
     "enableResourceInlining": true
   },
   "exclude": [
