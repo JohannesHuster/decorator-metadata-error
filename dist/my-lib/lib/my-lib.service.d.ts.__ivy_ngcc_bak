@@ -1,0 +1,4 @@
+export declare class MyLibService {
+    private document;
+    constructor(document: Document);
+}
