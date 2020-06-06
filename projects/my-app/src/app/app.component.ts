@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyLibService } from 'my-lib';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  constructor(private myLibService: MyLibService) {}
+
 }
